@@ -5,23 +5,23 @@ import "./About.scss";
 function About() {
   const abouts = [
     {
-      title: "Front End",
-      descriptions: "i am Front-end developer",
+      title: "Front End Developer",
+      description: "Specializing in creating engaging and responsive user interfaces.",
       imgUrl: images.about01,
     },
     {
-      title: "Back End",
-      descriptions: "i am Back-end developer",
+      title: "Back End Developer",
+      description: "Focused on server-side logic and database interactions.",
       imgUrl: images.about02,
     },
     {
-      title: "Full Stack ",
-      descriptions: "i am Full Stack developer",
+      title: "Full Stack Developer",
+      description: "Experienced in both Front-end and Back-end development.",
       imgUrl: images.about03,
     },
     {
-      title: "UX/UI ",
-      descriptions: "i am UX/UI",
+      title: "Database (SQL)",
+      description: "Proficient in designing and managing SQL databases.",
       imgUrl: images.about04,
     },
   ];
@@ -43,7 +43,7 @@ function About() {
           >
             <img src={about.imgUrl} alt={about.title} />
             <h2 className="bold-text" style={{ marginTop: 20 }}>{about.title}</h2>
-            <p className="p-text" style={{ marginTop: 10 }}>{about.descriptions}</p>
+            <p className="p-text" style={{ marginTop: 10 }}>{about.description}</p>
           </motion.div>
         ))}
       </div>
