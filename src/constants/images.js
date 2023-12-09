@@ -23,8 +23,14 @@ import sassPgn from "../assets/sass.png";
 import trelloPgn from "../assets/trello logo.png";
 import vite from "../assets/vite.png";
 import circle from "../assets/circle.svg";
-
+import database from "../assets/database.png";
+import front from "../assets/front.png";
+import back from '../assets/back.png'
+import full from '../assets/full.png'
 export default {
+  full,
+  back,
+  front,
   circle,
   logo09,
   about01,
@@ -50,4 +56,5 @@ export default {
   sassPgn,
   trelloPgn,
   vite,
+  database,
 };

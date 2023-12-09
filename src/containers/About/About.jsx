@@ -7,22 +7,22 @@ function About() {
     {
       title: "Front End Developer",
       description: "Specializing in creating engaging and responsive user interfaces.",
-      imgUrl: images.about01,
+      imgUrl: images.front,
     },
     {
       title: "Back End Developer",
       description: "Focused on server-side logic and database interactions.",
-      imgUrl: images.about02,
+      imgUrl: images.back,
     },
     {
       title: "Full Stack Developer",
       description: "Experienced in both Front-end and Back-end development.",
-      imgUrl: images.about03,
+      imgUrl: images.full,
     },
     {
       title: "Database (SQL)",
       description: "Proficient in designing and managing SQL databases.",
-      imgUrl: images.about04,
+      imgUrl: images.database,
     },
   ];
 
