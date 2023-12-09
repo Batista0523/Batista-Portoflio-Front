@@ -1,10 +1,14 @@
-import { useState } from 'react'
+import React from "react";
+import {  Skills, Testimonials, Projects, Header, Footer } from "./containers";
+import { NavBar } from "./components";
 import './App.scss'
-function App() {
 
-
+function App () {
   return (
-  <div></div>
+    <div className="app">
+
+
+    </div>
   )
 }
 
