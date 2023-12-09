@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import "./Testimonials.scss";
+
+
 
 function Testimonials() {
   return (
     <div>
-      
+      <h1>Testimonials</h1>
     </div>
-  )
+  );
 }
 
-export default Testimonials
+export default Testimonials;
