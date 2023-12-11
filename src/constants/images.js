@@ -27,7 +27,9 @@ import database from "../assets/database.png";
 import front from "../assets/front.png";
 import back from '../assets/back.png'
 import full from '../assets/full.png'
+import work1 from '../assets/hardwork.png'
 export default {
+  work1,
   full,
   back,
   front,

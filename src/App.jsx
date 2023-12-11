@@ -1,24 +1,35 @@
-import React from "react";
-import { About,Skills, Testimonials, Projects, Header, Footer } from "./containers";
-import { NavBar } from "./components";
 import "./App.scss";
-import Test from "./containers/Test";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import Projects from "./containers/Projects/Projects";
+import Header from "./containers/Header/Header";
+import About from "./containers/About/About";
+import Skills from "./containers/Skills/Skills";
+import Contacts from "./containers/Contact/Contact";
 
 function App() {
   return (
     <div className="app">
-       <NavBar/>
-      <Header/>
-      <About/>
-      <Test/>
-      <Skills/>
-      <Projects/>
-      <Footer/>
-      <Testimonials/>
-
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/project" element={<Projects />} />
+          <Route path="/contact" element={<Contacts/>}/>
+          <Route
+            path="/"
+            element={
+              <>
+                <Header />
+                <About />
+                <Skills/>
+              </>
+            }
+          />
+        </Routes>
+      </Router>
     </div>
-
-  ) 
+  );
 }
 
 export default App;

@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { images } from "../../constants";
 import "./Header.scss";
+import About from "../About/About";
 
 const scaleVariants = {
   whileInView: {
@@ -14,6 +15,29 @@ const scaleVariants = {
   },
 };
 const Header = () => {
+  const abouts = [
+    {
+      title: "Front End Developer",
+      description:
+        "Specializing in creating engaging and responsive user interfaces.",
+      imgUrl: images.front,
+    },
+    {
+      title: "Back End Developer",
+      description: "Focused on server-side logic and database interactions.",
+      imgUrl: images.back,
+    },
+    {
+      title: "Full Stack Developer",
+      description: "Experienced in both Front-end and Back-end development.",
+      imgUrl: images.full,
+    },
+    {
+      title: "Database (SQL)",
+      description: "Proficient in designing and managing SQL databases.",
+      imgUrl: images.database,
+    },
+  ];
   return (
     <div id="home" className="app__header app__flex">
       <motion.div
@@ -56,12 +80,18 @@ const Header = () => {
         whileInView={scaleVariants.whileInView}
         className="app__header-circles"
       >
-        {[images.reactPgn,images.postgresqlPgn,images.muIcons,images.vite].map((circle, index) => (
+        {[
+          images.reactPgn,
+          images.postgresqlPgn,
+          images.muIcons,
+          images.vite,
+        ].map((circle, index) => (
           <div className="circle-cmp app__flex" key={`circle-${index}`}>
             <img src={circle} alt="circle" />
           </div>
         ))}
       </motion.div>
+      
     </div>
   );
 };
