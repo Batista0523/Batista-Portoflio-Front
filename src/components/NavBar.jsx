@@ -7,26 +7,25 @@ const NavBar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className={`app__navbar ${toggle ? "active" : ""}`}>
+    <div className="app__navbar" >
       <Link to="/">
         <div className="app__navbar-logo">
           <img src={images.logo11} alt="logo" />
         </div>
       </Link>
-      <div className={`app__navbar-links ${toggle ? "active" : ""}`}>
-        <Link to="project" onClick={() => setToggle(false)}>
-          <h3>Projects</h3>
+      <div className="app__navbar-links">
+        <Link to="project" >
+          <h2>Projects</h2>
         </Link>
-        <Link to="contact" onClick={() => setToggle(false)}>
+        <Link to="contact" >
           <h3>Contact me</h3>
         </Link>
+        <Link to="create">
+          <h2>Add Your Project</h2>
+        </Link>
       </div>
-      <div className={`app__navbar-burger ${toggle ? "active" : ""}`} onClick={() => setToggle(!toggle)}>
-        <div className="bar"></div>
-        <div className="bar"></div>
-        <div className="bar"></div>
-      </div>
-    </nav>
+    
+    </div>
   );
 };
 

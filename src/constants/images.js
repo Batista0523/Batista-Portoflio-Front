@@ -25,10 +25,12 @@ import vite from "../assets/vite.png";
 import circle from "../assets/circle.svg";
 import database from "../assets/database.png";
 import front from "../assets/front.png";
-import back from '../assets/back.png'
-import full from '../assets/full.png'
-import work1 from '../assets/hardwork.png'
+import back from "../assets/back.png";
+import full from "../assets/full.png";
+import work1 from "../assets/hardwork.png";
+import projectimg from "../assets/projectimg.png";
 export default {
+  projectimg,
   work1,
   full,
   back,

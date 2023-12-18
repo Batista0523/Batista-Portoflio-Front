@@ -7,6 +7,7 @@ import Header from "./containers/Header/Header";
 import About from "./containers/About/About";
 import Skills from "./containers/Skills/Skills";
 import Contacts from "./containers/Contact/Contact";
+import Post from "./containers/Create/Post";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/project" element={<Projects />} />
           <Route path="/contact" element={<Contacts/>}/>
+          <Route path="/create" element={<Post/>}/>
           <Route
             path="/"
             element={
