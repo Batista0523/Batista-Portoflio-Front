@@ -15,7 +15,7 @@ const createItem = async (data) => {
   const options = {
     method: "POST",
     body: JSON.stringify(data),
-    header: { "Content-type": "application/json" },
+    headers: { "Content-type": "application/json" },
   };
   try {
         const res = await fetch(URL, options);

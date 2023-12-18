@@ -13,6 +13,7 @@ const Post = () => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -39,6 +40,15 @@ const Post = () => {
   return (
     <div className="container mt-4">
       <h2 className="mb-3 text-center">Add Your Project</h2>
+      <p className="lead">
+        We deeply value your feedback and appreciate your trust in my services.
+        If you believe that my work has significantly contributed to the
+        success of your business, I kindly invite you to share your experience
+        here. Your insights are not only crucial to my continuous improvement
+        but also assist others in making informed decisions about my
+        capabilities and commitment.
+      </p>
+
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="title" className="form-label">
@@ -53,7 +63,43 @@ const Post = () => {
             onChange={handleInputChange}
           />
         </div>
-        <div className="mb-3"></div>
+        <div className="mb-3">
+          <label htmlFor="repolink">Repository Link</label>
+          <input
+            type="text"
+            name="repolink"
+            id="repolink"
+            className="form-control"
+            value={formData.repolink}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="deployedlink">Website</label>
+          <input
+            type="text"
+            name="deployedlink"
+            id="deployedlink"
+            className="form-control"
+            value={formData.deployedlink}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="descriptions" className="form-label">
+            Descriptions
+          </label>
+          <textarea
+            className="form-control"
+            id="descriptions"
+            name="descriptions"
+            value={formData.descriptions}
+            onChange={handleInputChange}
+          />
+        </div>
+        <button type="submit" className="btn btn-primary">
+          Add Project
+        </button>
       </form>
     </div>
   );
