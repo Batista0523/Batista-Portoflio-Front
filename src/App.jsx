@@ -16,15 +16,15 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/project" element={<Projects />} />
-          <Route path="/contact" element={<Contacts/>}/>
-          <Route path="/create" element={<Post/>}/>
+          <Route path="/contact" element={<Contacts />} />
+          <Route path="/create" element={<Post />} />
           <Route
             path="/"
             element={
               <>
                 <Header />
                 <About />
-                <Skills/>
+                <Skills />
               </>
             }
           />

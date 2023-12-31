@@ -17,15 +17,16 @@ function Projects() {
     fetchItems();
   }, []);
 
+  
   return (
     <div className="projects-container">
-      <h1 className="projects-heading">Some Projects</h1>
+      <h1 className="projects-heading">Projects</h1>
       <div className="projects-list">
         {items.map((item) => (
           <div key={item.id} className="project-item">
             <div className="project-card">
               <div className="card-body">
-                <h5 className="card-title">{item.title}</h5>
+                <h1 className="card-title">{item.title}</h1>
                 <p className="card-text">{item.descriptions}</p>
                 <div className="project-buttons">
                   <a

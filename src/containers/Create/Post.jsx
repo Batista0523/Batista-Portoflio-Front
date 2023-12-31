@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { createItem } from "../../helpers/apicalls";
+import './Post.scss'
 
 const Post = () => {
+  
   const [formData, setFormData] = useState({
     title: "",
     descriptions: "",
@@ -27,6 +29,7 @@ const Post = () => {
           repolink: "",
           deployedlink: "",
         });
+       
       } else {
         console.error("Unexpected response format", response);
         alert("Item addition failed. Please try again");

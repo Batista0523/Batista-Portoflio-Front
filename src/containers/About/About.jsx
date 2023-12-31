@@ -66,29 +66,6 @@ function About() {
             alignItems: "center",
           }}
         >
-          <img
-            src={images.work1}
-            alt="Profile"
-            style={{
-              width: "150px",
-              height: "150px",
-              borderRadius: "50%",
-              marginRight: "20px",
-            }}
-          />
-          <div className="card-body" style={{ cursor: "pointer" }}>
-            <motion.h4 className="card-text about-des">
-              I am a dedicated full-stack developer, driven by an unyielding
-              pursuit of excellence. I am eager to invest more than 70 hours per
-              week, and I am open to extending my commitment throughout all
-              seven days should the project demand it. In the face of
-              challenges, my passion ignites, propelling me to deliver
-              outstanding results with efficiency and precision. Proficient in
-              both English and Spanish, and holding a US passport, I am prepared
-              to embark on any necessary journey to contribute wholeheartedly to
-              the success of our endeavors.
-            </motion.h4>
-          </div>
         </motion.div>
       </div>
     </div>
