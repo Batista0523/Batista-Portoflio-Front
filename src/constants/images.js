@@ -29,7 +29,11 @@ import back from "../assets/back.png";
 import full from "../assets/full.png";
 import work1 from "../assets/hardwork.png";
 import projectimg from "../assets/projectimg.png";
+import create from '../assets/post.png';
+import contact from '../assets/contact.png';
 export default {
+  contact,
+  create,
   projectimg,
   work1,
   full,

@@ -17,7 +17,7 @@ function Projects() {
     fetchItems();
   }, []);
 
-  
+
   return (
     <div className="projects-container">
       <h1 className="projects-heading">Projects</h1>
@@ -35,7 +35,7 @@ function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Deployed
+                    Live Demo
                   </a>
                   <a
                     href={item.repolink}
@@ -43,7 +43,7 @@ function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    GitHub
+                    Repository
                   </a>
                 </div>
               </div>

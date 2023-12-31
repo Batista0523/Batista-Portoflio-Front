@@ -4,12 +4,19 @@
   padding: 20px;
 
   .projects-heading {
-    font-size: 208px;
+    font-size: 4rem; 
     margin-bottom: 20px;
     background-color: #d2a41a8e;
     border-radius: 2rem;
-    
     text-align: center;
+
+    @media (min-width: 768px) {
+      font-size: 6rem; 
+    }
+
+    @media (min-width: 1200px) {
+      font-size: 8rem; 
+    }
   }
 
   .projects-list {
@@ -30,7 +37,6 @@
         flex: 0 0 100%;
       }
 
-
       .project-card {
         border: 1px solid #ddd;
         border-radius: 8px;
@@ -47,7 +53,6 @@
           .card-text {
             font-size: 20px;
             margin-bottom: 15px;
-           
           }
 
           .project-buttons {
@@ -62,11 +67,11 @@
               border-radius: 5px;
 
               &.deployed-button {
-                background-color: #4caf50; 
+                background-color: #4caf50;
               }
 
               &.github-button {
-                background-color: #0366d6; 
+                background-color: #0366d6;
               }
             }
           }

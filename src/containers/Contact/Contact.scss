@@ -2,7 +2,7 @@
     margin-top: 5rem;
   
     .contact-card {
-      background-color: #f8f9fa; // Light gray
+      background-color: #f8f9fa; 
       border: 1px solid #ced4da;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -13,11 +13,11 @@
         .card-title {
           font-size: 2rem;
           margin-bottom: 1.5rem;
-          color: #343a40; // Dark gray
+          color: #343a40; 
         }
   
         p {
-          color: #6c757d; // Gray
+          color: #6c757d; 
           font-size: 1.2rem;
           text-align: center;
           margin-bottom: 1rem;
@@ -28,7 +28,7 @@
   
           .form-label {
             font-size: 1.2rem;
-            color: #343a40; // Dark gray
+            color: #343a40; 
           }
   
           .form-control {
@@ -42,7 +42,7 @@
   
           button {
             font-size: 1.2rem;
-            background-color: #007bff; // Bootstrap primary color
+            background-color: #007bff; 
             color: #fff;
             border: none;
             padding: 0.5rem 1rem;
@@ -51,7 +51,7 @@
             transition: background-color 0.3s ease;
   
             &:hover {
-              background-color: #0056b3; // Darker blue on hover
+              background-color: #0056b3; 
             }
           }
         }
@@ -59,7 +59,7 @@
         .mt-3 {
           margin-top: 1rem;
           font-size: 1.2rem;
-          color: #6c757d; // Gray
+          color: #6c757d; 
           text-align: center;
         }
       }
@@ -74,11 +74,11 @@
         .card-title {
           font-size: 2rem;
           margin-bottom: 1.5rem;
-          color: #343a40; // Dark gray
+          color: #343a40; 
         }
   
         p {
-          color: #6c757d; // Gray
+          color: #6c757d; 
           font-size: 1.2rem;
           text-align: center;
           margin-bottom: 1rem;

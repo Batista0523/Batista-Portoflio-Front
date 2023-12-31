@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { createItem } from "../../helpers/apicalls";
 import './Post.scss'
+import { images } from "../../constants";
 
 const Post = () => {
   
@@ -43,6 +44,7 @@ const Post = () => {
   return (
     <div className="container mt-4">
       <h2 className="mb-3 text-center">Add Your Project</h2>
+      <img  className="img-create" src={images.create} alt="post" />
       <p className="lead">
         We deeply value your feedback and appreciate your trust in my services.
         If you believe that my work has significantly contributed to the
