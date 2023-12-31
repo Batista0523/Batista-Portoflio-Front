@@ -57,7 +57,6 @@ const Contacts = () => {
               <h2 className="card-title text-center mb-4">
                 Let's Connect!
               </h2>
-              <img className="img-create" src={images.contact} alt="" />
               <p className="text-center">
                 👋 I'm excited to hear from you! Feel free to reach out for any
                 inquiries or just to say hello.

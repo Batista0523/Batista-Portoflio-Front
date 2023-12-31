@@ -1,4 +1,6 @@
-.app {
+body {
+  margin: 0;
+  padding: 0;
   background-color: var(--primary-color);
   font-family: var(--font-base);
 }
@@ -15,7 +17,7 @@
   width: 100%;
   min-height: 100vh;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .app__flex {

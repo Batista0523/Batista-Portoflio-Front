@@ -29,11 +29,19 @@ import back from "../assets/back.png";
 import full from "../assets/full.png";
 import work1 from "../assets/hardwork.png";
 import projectimg from "../assets/projectimg.png";
-import create from '../assets/post.png';
+import add from '../assets/add.png';
 import contact from '../assets/contact.png';
+import add2 from '../assets/add2.png';
+import add3 from '../assets/add3.png';
+import thanks from '../assets/thanks.png';
+import thanks2 from '../assets/thanks2.png';
 export default {
+  thanks2,
+  thanks,
+  add3,
+  add2,
   contact,
-  create,
+  add,
   projectimg,
   work1,
   full,

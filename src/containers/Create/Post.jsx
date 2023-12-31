@@ -44,9 +44,11 @@ const Post = () => {
   return (
     <div className="container mt-4">
       <h2 className="mb-3 text-center">Add Your Project</h2>
-      <img  className="img-create" src={images.create} alt="post" />
+      <img className="add-images" src={images.add} alt="add" />
+      <img className="add-images" src={images.add2} alt="add2" />
+      <img className="add-images" src={images.add3} alt="add3" />
       <p className="lead">
-        We deeply value your feedback and appreciate your trust in my services.
+        I deeply value your feedback and appreciate your trust in my services.
         If you believe that my work has significantly contributed to the
         success of your business, I kindly invite you to share your experience
         here. Your insights are not only crucial to my continuous improvement
@@ -106,6 +108,8 @@ const Post = () => {
           Add Project
         </button>
       </form>
+        <img src={images.thanks2} alt="" />
+        <img src={images.thanks} alt="" />
     </div>
   );
 };

@@ -25,10 +25,10 @@
       .skill-item {
         width: 45%;
         margin-bottom: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px rgba(22, 21, 21, 0.1);
         padding: 20px;
-        transition: transform 0.3s ease-in-out;
-  
+        transition: transform 0.5s ease-in-out;
+       cursor: pointer;
         &:hover {
           transform: translateY(-5px);
         }
@@ -44,7 +44,7 @@
   
         p {
           font-size: 1rem;
-          color: #555;
+          color: #020202;
         }
       }
     }
