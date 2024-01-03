@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; 
+import "bootstrap/dist/css/bootstrap.min.css";
 import emailjs from "emailjs-com";
-import './Contact.scss'
+import "./Contact.scss";
 import { images } from "../../constants";
 const Contacts = () => {
   const form = useRef();
@@ -50,13 +50,14 @@ const Contacts = () => {
 
   return (
     <div className="container mt-5">
+      <div>
+        <img src={images.contact3} className="contact-img" alt="" />
+      </div>
       <div className="row justify-content-center">
         <div className="col-md-8">
           <div className="card contact-card">
             <div className="card-body">
-              <h2 className="card-title text-center mb-4">
-                Let's Connect!
-              </h2>
+              <h2 className="card-title text-center mb-4">Let's Connect!</h2>
               <p className="text-center">
                 👋 I'm excited to hear from you! Feel free to reach out for any
                 inquiries or just to say hello.
@@ -106,10 +107,13 @@ const Contacts = () => {
               </p>
             </div>
           </div>
+          <img src={images.contactme} className="add-images" alt="" />
+          <img src={images.contact2} className="add-images" alt="" />
+
           <div className="card mt-5 recruiter-card">
             <div className="card-body">
               <h2 className="card-title text-center mb-4">
-                Future Recruiters, Hello!
+                Future Recruiters,Hello!
               </h2>
               <p className="text-center">
                 🚀 As a passionate Full Stack Developer, I'm eager to
@@ -121,6 +125,33 @@ const Contacts = () => {
                 💡 Let's build something amazing together! Reach out, and let's
                 discuss how my skills can bring value to your team.
               </p>
+
+              <div>
+                <p>
+                  {" "}
+                  <a className="icons" href="mailto:elisaulbatista@pursuit.org">
+                    Email
+                  </a>
+                  <br />
+                  <a
+                    className="icons"
+                    href="https://www.linkedin.com/in/elisaul-batista/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LinkedIn
+                  </a>
+                  <br />
+                  <a
+                    className="icons"
+                    href="https://github.com/Batista0523"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>{" "}
+                </p>
+              </div>
             </div>
           </div>
         </div>

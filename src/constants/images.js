@@ -35,7 +35,13 @@ import add2 from '../assets/add2.png';
 import add3 from '../assets/add3.png';
 import thanks from '../assets/thanks.png';
 import thanks2 from '../assets/thanks2.png';
+import contactme from '../assets/contactme.png';
+import contact2 from '../assets/contact2.png';
+import contact3 from '../assets/contact3.png';
 export default {
+  contact3,
+  contact2,
+  contactme,
   thanks2,
   thanks,
   add3,

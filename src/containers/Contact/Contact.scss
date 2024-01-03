@@ -1,119 +1,116 @@
 .container {
-    margin-top: 5rem;
-  
-    .contact-card {
-      background-color: #f8f9fa; 
-      border: 1px solid #ced4da;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  
-      .card-body {
-        padding: 2rem;
-  
-        .card-title {
-          font-size: 2rem;
+  margin-top: 5rem;
+
+  .contact-img {
+    margin-left: 23rem;
+  }
+
+  .icons {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    font-family: serif solid black;
+  }
+
+  .contact-card,
+  .recruiter-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    .card-body {
+      padding: 2rem;
+
+      .card-title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        color: #343a40;
+      }
+
+      p {
+        color: #6c757d;
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+      form {
+        margin-top: 2rem;
+
+        .form-label {
+          font-size: 1.2rem;
+          color: #343a40;
+        }
+
+        .form-control {
           margin-bottom: 1.5rem;
-          color: #343a40; 
+          border-radius: 5px;
         }
-  
-        p {
-          color: #6c757d; 
+
+        textarea.form-control {
+          resize: vertical;
+        }
+
+        button {
           font-size: 1.2rem;
-          text-align: center;
-          margin-bottom: 1rem;
-        }
-  
-        form {
-          margin-top: 2rem;
-  
-          .form-label {
-            font-size: 1.2rem;
-            color: #343a40; 
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          padding: 0.5rem 1rem;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: #0056b3;
           }
-  
-          .form-control {
-            margin-bottom: 1.5rem;
-            border-radius: 5px;
-          }
-  
-          textarea.form-control {
-            resize: vertical;
-          }
-  
-          button {
-            font-size: 1.2rem;
-            background-color: #007bff; 
-            color: #fff;
-            border: none;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-  
-            &:hover {
-              background-color: #0056b3; 
-            }
-          }
-        }
-  
-        .mt-3 {
-          margin-top: 1rem;
-          font-size: 1.2rem;
-          color: #6c757d; 
-          text-align: center;
         }
       }
-    }
-  
-    .recruiter-card {
-      margin-top: 2.5rem;
-  
-      .card-body {
-        padding: 2rem;
-  
-        .card-title {
-          font-size: 2rem;
-          margin-bottom: 1.5rem;
-          color: #343a40; 
-        }
-  
-        p {
-          color: #6c757d; 
-          font-size: 1.2rem;
-          text-align: center;
-          margin-bottom: 1rem;
-        }
+
+      .mt-3 {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        color: #6c757d;
+        text-align: center;
       }
     }
   }
-  
+
   @media (max-width: 768px) {
-    .container {
-      .contact-card,
-      .recruiter-card {
-        .card-body {
-          padding: 1.5rem;
-  
-          .card-title {
-            font-size: 1.8rem;
-          }
-  
-          p {
+    .contact-img {
+      margin-left: 0;
+      text-align: center;
+    }
+
+    .icons {
+      margin-top: 1rem;
+    }
+
+    .contact-card,
+    .recruiter-card {
+      .card-body {
+        padding: 1.5rem;
+
+        .card-title {
+          font-size: 1.8rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+
+        form {
+          button {
             font-size: 1rem;
+            padding: 0.5rem 1rem;
           }
-  
-          form {
-            button {
-              font-size: 1rem;
-              padding: 0.5rem 1rem;
-            }
-          }
-  
-          .mt-3 {
-            font-size: 1rem;
-          }
+        }
+
+        .mt-3 {
+          font-size: 1rem;
         }
       }
     }
   }
-  
+}
