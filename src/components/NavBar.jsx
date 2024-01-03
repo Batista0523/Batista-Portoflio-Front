@@ -17,11 +17,11 @@ const NavBar = () => {
         <Link to="project" className="navbar-link">
           Projects
         </Link>
+        <Link to="create" className="navbar-link">
+        Share it!!
+        </Link>
         <Link to="contact" className="navbar-link">
           Contact me
-        </Link>
-        <Link to="create" className="navbar-link">
-          Add Your Projects
         </Link>
       </div>
     </div>

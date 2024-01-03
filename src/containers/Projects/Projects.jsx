@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getAllItems } from "../../helpers/apicalls";
 import "./Projects.scss"; 
+import { images } from "../../constants";
 
 function Projects() {
   const [items, setItems] = useState([]);
@@ -20,6 +21,8 @@ function Projects() {
 
   return (
     <div className="projects-container">
+      <img src={images.projectimg2} alt="project" />
+      <img src={images.project3} alt="project" />
       <h1 className="projects-heading">Projects</h1>
       <div className="projects-list">
         {items.map((item) => (

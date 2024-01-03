@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { images } from "../../constants";
 import "./Header.scss";
-import About from "../About/About";
+
 
 const scaleVariants = {
   whileInView: {
@@ -50,7 +50,7 @@ const Header = () => {
             <span>👋🏻</span>
             <div style={{ marginLeft: 20 }}>
               <p className="p-text">Hello, I am</p>
-              <h1 className="head-tex">Elisaul</h1>
+              <h1 className="head-tex">Elisaul Batista</h1>
             </div>
           </div>
           <div className="tag-cmp app__flex">
