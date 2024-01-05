@@ -21,8 +21,9 @@ function Projects() {
 
   return (
     <div className="projects-container">
-      <img src={images.projectimg2} alt="project" />
+      
       <img src={images.project3} alt="project" />
+      <img src={images.note} alt="" />
       <h1 className="projects-heading">Projects</h1>
       <div className="projects-list">
         {items.map((item) => (

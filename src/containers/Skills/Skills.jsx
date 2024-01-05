@@ -1,5 +1,6 @@
 import React from "react";
 import "./Skills.scss";
+import { images } from "../../constants";
 
 function Skills() {
   const skills = [
@@ -14,7 +15,9 @@ function Skills() {
 
   return (
     <div className="skills-container">
-      <h1>Skills</h1>
+      <img src={images.skill} className="skill-images" alt="" />
+      <img src={images.skillLevel} className="skill-level" alt="" />
+      <h1 className="card">Skills</h1>
       <div className="skills-list">
         {skills.map((skill, index) => (
           <div key={index} className="skill-item">

@@ -83,8 +83,9 @@ const Header = () => {
         {[
           images.reactPgn,
           images.postgresqlPgn,
-          images.muIcons,
-          images.vite,
+          
+          images.html,
+          images.css
         ].map((circle, index) => (
           <div className="circle-cmp app__flex" key={`circle-${index}`}>
             <img src={circle} alt="circle" />

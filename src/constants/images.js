@@ -40,7 +40,21 @@ import contact2 from '../assets/contact2.png';
 import projectimg2 from '../assets/project.png';
 import contact3 from '../assets/contact3.png';
 import project3 from '../assets/projectimg3.png';
+import skill from '../assets/skill.png';
+import background from '../assets/background.png';
+import skillLevel from '../assets/skillLevel.png';
+import contactbk from '../assets/contactbk.png';
+import css from '../assets/css.png';
+import html from '../assets/html.png';
+import note from '../assets/note.png';
 export default {
+  note,
+  html,
+  css,
+  skillLevel ,
+  contactbk,
+  skill,
+  background,
   project3,
   projectimg2,
   contact3,

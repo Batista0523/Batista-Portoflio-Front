@@ -2,14 +2,20 @@
     flex: 1;
     width: 100%;
     flex-direction: column;
+   
+    
 }
 
 .app__profiles {
+     border-radius: 35px;
+     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 2rem;
+    background: url(../../assets/bgIMG.png);
+    
 }
 
 .app__profile-item {
@@ -25,6 +31,7 @@
         height: 170px;
         border-radius: 15px;
         object-fit: cover;
+       
     }
 
     @media screen and (min-width:2000px){
@@ -36,3 +43,4 @@
         }
     }
 }
+

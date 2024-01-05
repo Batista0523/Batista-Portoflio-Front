@@ -49,10 +49,7 @@ const Contacts = () => {
   };
 
   return (
-    <div className="container mt-5">
-      <div>
-        <img src={images.contact3} className="contact-img" alt="" />
-      </div>
+    <div className="container2 mt-5">
       <div className="row justify-content-center">
         <div className="col-md-8">
           <div className="card contact-card">
@@ -107,8 +104,6 @@ const Contacts = () => {
               </p>
             </div>
           </div>
-          <img src={images.contactme} className="add-images" alt="" />
-          <img src={images.contact2} className="add-images" alt="" />
 
           <div className="card mt-5 recruiter-card">
             <div className="card-body">
@@ -154,6 +149,9 @@ const Contacts = () => {
               </div>
             </div>
           </div>
+        
+           <img src={images.contactme} className="ad-images" alt="" />
+          <img src={images.contact2} className="ad-images" alt="" /> 
         </div>
       </div>
     </div>
