@@ -1,8 +1,4 @@
 import logo09 from "../assets/logo9.jpg";
-import about01 from "../assets/about01.png";
-import about02 from "../assets/about02.png";
-import about03 from "../assets/about03.png";
-import about04 from "../assets/about04.png";
 import api from "../assets/api.png";
 import bgIMG from "../assets/bgIMG.png";
 import bgWhite from "../assets/bgWhite.png";
@@ -73,10 +69,6 @@ export default {
   front,
   circle,
   logo09,
-  about01,
-  about02,
-  about03,
-  about04,
   api,
   bgIMG,
   bgWhite,
