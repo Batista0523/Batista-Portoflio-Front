@@ -11,19 +11,19 @@ const getAllItems = async () => {
   }
 };
 
-// const getOneItem = (id) => {
-//   return fetch(`${URL}/${id}`)
-//     .then((res) => res.json())
-//     .then((json) => {
-//       if (json.id) {
-//         return json;
-//       } else {
-//         console.error("Unexpected response format:", json);
-//         throw new Error("Unexpected response format");
-//       }
-//     })
-//     .catch((err) => console.error(err));
-// }
+const getOneItem = (id) => {
+  return fetch(`${URL}/${id}`)
+    .then((res) => res.json())
+    .then((json) => {
+      if (json.id) {
+        return json;
+      } else {
+        console.error("Unexpected response format:", json);
+        throw new Error("Unexpected response format");
+      }
+    })
+    .catch((err) => console.error(err));
+}
 
 const createItem = async (data) => {
   const options = {
