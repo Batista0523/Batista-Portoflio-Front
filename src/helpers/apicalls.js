@@ -7,7 +7,7 @@ const getAllItems = async () => {
     return json.data.payload;
   } else {
     console.error("Unexpected response format", json);
-    throw new Error("Unexpected response formt");
+    throw new Error("Unexpected response format");
   }
 };
 

@@ -18,7 +18,7 @@ const NavBar = () => {
           Projects
         </Link>
         <Link to="create" className="navbar-link">
-        Share it!!
+          Share it!!
         </Link>
         <Link to="contact" className="navbar-link">
           Contact me
