@@ -41,4 +41,4 @@ const createItem = async (data) => {
   }
 };
 
-export { getAllItems, createItem, getOneItem};
+export { getAllItems, createItem, getOneItem };
