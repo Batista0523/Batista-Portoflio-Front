@@ -23,7 +23,9 @@ const getOneItem = (id) => {
       }
     })
     .catch((err) => console.error(err));
-}
+};
+
+
 
 const createItem = async (data) => {
   const options = {

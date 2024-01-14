@@ -2,7 +2,16 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-
+  .see-more-link {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+  
+    &:hover {
+      color: #0056b3;
+    }
+  }
+  
   .projects-heading {
     font-size: 3rem; 
     margin-bottom: 20px;
