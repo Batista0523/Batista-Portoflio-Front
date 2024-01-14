@@ -30,7 +30,7 @@ This project is a full-stack portfolio website built with Express.js for the bac
 
 ## Adding Projects
 
-As part of this portfolio, there is a feature that allows users to contribute by adding their own projects to the showcase. Follow the steps below to submit your project:
+As part of this portfolio, there is a feature that allows users to contribute by adding their own projects that i have created for them to the showcase. Follow the steps below to submit your project:
 
 1. **Navigate to the "Add Project" Section:**
    - Access the "Share it!!" section on the website.
