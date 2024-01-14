@@ -26,6 +26,7 @@ function Projects() {
     setExpandedItems(updatedExpandedItems);
   };
 
+  
   return (
     <div className="projects-container">
       <img src={images.project3} alt="project" />
